@@ -12,7 +12,8 @@ namespace Proyecto.Data
         public DbSet<Proveedor> Proveedor { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
+        {  
+            //test de comentario
             // Mapeo de la entidad Proveedor a la tabla proveedores
             modelBuilder.Entity<Proveedor>().ToTable("proveedores");
 
